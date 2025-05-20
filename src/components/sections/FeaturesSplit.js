@@ -67,7 +67,67 @@ const FeaturesSplit = ({
           <div className="container">
             <div className={innerClasses}>
               <div className={splitClasses}>
+                <div className="split-item">
+                  <div
+                    className="split-item-content center-content-mobile reveal-from-left"
+                    data-reveal-container=".split-item"
+                  >
+                    <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
+                      Students’ Union Website & Platform Management
+                    </div>
+                    <h3 className="mt-0 mb-12">
+                      Full System Ownership on UnionCloud
+                    </h3>
+                    <p className="m-0 mb-12">
+                      Independently managing the technical infrastructure and operational backbone of trentstudents.org, the primary website and central platform of Nottingham Trent Students’ Union (NTSU). Built on UnionCloud by OneVoice, this system powers every aspect of SU operations—from elections and campaigns to content delivery, access management, and compliance.
+                    </p>
 
+                    <div className="mt-12">
+                      <strong>Key Deliverables:</strong>
+                      <ul className="mt-4">
+                        <li>Maintained full administrative control of the UnionCloud platform, covering all core modules, configuration, and internal support.</li>
+                        <li>Created and updated web pages, articles, redirects, campaign content, and visual structure—ensuring all website changes and updates align with organisational needs and branding.</li>
+                        <li>Oversaw system-wide permission management, managing staff access levels across all departments and controlling who can see, edit, or publish within each module.</li>
+                        <li>Provided technical configuration and resolution across all platform modules, including:
+                          <ul>
+                            <li>Democracy tools: Election setup, dashboard configuration, student rep systems.</li>
+                            <li>Events & Ticketing: System access, configuration fixes, module availability.</li>
+                            <li>Campaigns & Comms: SendGrid integration, campaign visibility, email routing support.</li>
+                            <li>Finance & Stripe: Nominal code mapping, payout configuration, access control.</li>
+                            <li>User Management: File uploads, refund workflows, course rep tagging, alumni grouping.</li>
+                          </ul>
+                        </li>
+                        <li>Handled escalations and cross-departmental digital needs, ensuring all internal teams could execute their work without technical blockers.</li>
+                        <li>Ensured compliance, data protection, and operational continuity across all NTU campuses.</li>
+                      </ul>
+                    </div>
+
+                    <div className="mt-12">
+                      <strong>Measured Outcomes:</strong>
+                      <ul className="mt-4">
+                        <li>Centralised technical ownership of the SU’s digital infrastructure under one accountable lead.</li>
+                        <li>Delivered rapid platform changes, web content updates, and campaign rollouts without third-party dependency.</li>
+                        <li>Enforced secure, auditable access control across all organisational layers.</li>
+                        <li>Improved turnaround time on digital issues and requests, supporting real-time union activity across campuses.</li>
+                      </ul>
+                    </div>
+                  </div>
+
+                  <div
+                    className={classNames(
+                      'split-item-image center-content-mobile reveal-from-bottom',
+                      imageFill && 'split-item-image-fill'
+                    )}
+                    data-reveal-container=".split-item"
+                  >
+                    <Image
+                      src={require('./../../assets/images/features-split-image-01.png')}
+                      alt="Students’ Union Website Management"
+                      width={528}
+                      height={396}
+                    />
+                  </div>
+                </div>
                 <div className="split-item">
                   <div
                     className="split-item-content center-content-mobile reveal-from-left"
