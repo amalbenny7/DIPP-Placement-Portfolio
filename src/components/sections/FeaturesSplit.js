@@ -63,7 +63,16 @@ const FeaturesSplit = ({
         <div className={innerClasses}>
           <SectionHeader data={sectionHeader} className="center-content" />
           <div className={splitClasses}>
-            
+          <style>
+          {`
+            @media (max-width: 767px) {
+              .container * {
+                text-align: left !important;
+              }
+            }
+          `}
+        </style>
+
           <div className="container">
             <div className={innerClasses}>
               <div className={splitClasses}>
