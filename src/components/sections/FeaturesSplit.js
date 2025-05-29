@@ -50,8 +50,8 @@ const FeaturesSplit = ({
   );
 
   const sectionHeader = {
-    title: 'Workflow that just works',
-    paragraph: 'Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum — semper quis lectus nulla at volutpat diam ut venenatis.'
+    title: 'Technical Management & Systems Innovation for NTSU Digital Ecosystem',
+    paragraph: 'Throughout my placement at Nottingham Trent Students’ Union (NTSU), I independently managed the complete digital ecosystem, delivering projects across web migrations, infrastructure upgrades, secure content administration, and chatbot integration. This included moving high-traffic websites to advanced hosting environments, overseeing the UnionCloud platform for real-time operations, deploying structured incident reporting systems, and embedding AI-driven support services to modernise digital interactions.'
   };
 
   return (
@@ -480,6 +480,67 @@ const FeaturesSplit = ({
               />
             </div>
           </div>
+          <div className="split-item">
+          <div
+            className="split-item-content center-content-mobile reveal-from-left"
+            data-reveal-container=".split-item"
+          >
+            <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
+              AI Chatbot Integration for NTSU
+            </div>
+            <h3 className="mt-0 mb-12">
+              Automated FAQs & Technical Deployment
+            </h3>
+            <p className="m-0 mb-12">
+              Implemented a scalable, content-trained AI chatbot system for Nottingham Trent Students’ Union (NTSU), using the CustomGPT.ai platform. This system was integrated directly into the Students’ Union’s digital ecosystem (powered by UnionCloud), providing instant, automated support for FAQs, student jobs, society queries, and service information.
+            </p>
+
+            <div className="mt-12">
+              <strong>Key Deliverables:</strong>
+              <ul className="mt-4">
+                <li>Deployed CustomGPT.ai Standard Plan, leveraging its advanced content ingestion (PDFs, websites, live web crawls) and multilingual capabilities.</li>
+                <li>Trained the chatbot with:
+                  <ul>
+                    <li>Frequently asked questions (joining societies, opening hours, contact details)</li>
+                    <li>Job listings support (how/where to apply)</li>
+                    <li>Student services and operational information.</li>
+                  </ul>
+                </li>
+                <li>Oversaw the chatbot’s brand identity (name, greeting, tone, colour scheme) in collaboration with Marketing.</li>
+                <li>Embedded the chatbot via JavaScript into UnionCloud’s CMS, ensuring seamless user experience within existing NTSU web pages.</li>
+                <li>Managed and configured all chatbot admin functions: content updates, analytics tracking, permissions for up to 3 admin users.</li>
+                <li>Conducted iterative testing with all internal teams (Opportunities, Marketing, Events, Advice) to refine accuracy and tone.</li>
+                <li>Finalised the live chatbot deployment across key NTSU pages (Societies, Jobs, Advice, Retail), replacing ad-hoc manual queries with structured, 24/7 digital support.</li>
+                <li>Developed a future roadmap for multi-bot expansion, WhatsApp integration, and internal comms use cases.</li>
+              </ul>
+            </div>
+
+            <div className="mt-12">
+              <strong>Measured Outcomes:</strong>
+              <ul className="mt-4">
+                <li>Reduced repetitive queries for student-facing staff, enabling faster response times and improved consistency of information.</li>
+                <li>Provided a robust platform to support continuous improvement (new FAQs, student feedback, and usage-based refinements).</li>
+                <li>Improved the overall digital experience for students through real-time, interactive support across major SU areas.</li>
+                <li>Established a framework for future integrations (e.g. event promotion, campaign support, HR workflows) to expand chatbot value beyond FAQs.</li>
+              </ul>
+            </div>
+          </div>
+
+          <div
+            className={classNames(
+              'split-item-image center-content-mobile reveal-from-bottom',
+              imageFill && 'split-item-image-fill'
+            )}
+            data-reveal-container=".split-item"
+          >
+            <Image
+              src={require('./../../assets/images/features-split-image-01.png')}
+              alt="AI Chatbot Integration"
+              width={528}
+              height={396}
+            />
+          </div>
+        </div>
 
 
           </div>
